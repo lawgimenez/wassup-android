@@ -1,0 +1,44 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- Toolbar -->
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            />
+        <!-- Username -->
+        <EditText
+            style="@style/EditTextTheme"
+            android:id="@+id/edittext_username"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="30dp"
+            android:hint="@string/username"
+            />
+        <!-- Password -->
+        <EditText
+            style="@style/EditTextTheme"
+            android:id="@+id/edittext_password"
+            android:layout_below="@+id/edittext_username"
+            android:layout_marginTop="30dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            />
+        <!-- Sign up / login -->
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/button_login"
+            android:layout_below="@+id/edittext_password"
+            android:layout_marginTop="20dp"
+            android:text="@string/signup_login"
+            />
+        <TextView
+            style="@style/TermsOfServiceTheme"
+            android:layout_below="@+id/button_login"
+            android:text="@string/terms_of_service"
+            android:layout_marginTop="15dp"
+            />
+    </RelativeLayout>
+</layout>

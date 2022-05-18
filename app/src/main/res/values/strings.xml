@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">wasssup</string>
+    <string name="chat_app">Chat app</string>
+    <string name="username">User name</string>
+    <string name="password">password</string>
+    <string name="signup_login">Sign up / Log in</string>
+    <string name="terms_of_service">By signing up, you agree to the Terms of  \nService and Privacy Policy, including Cookie  \nUse. Others will be able to find you by  \nsearching for your email address or phone  \nnumber when provided.</string>
+    <string name="send">send</string>
+    <string name="log_out">Log out</string>
+    <string name="start_a_new_message">Start a new message</string>
+    <string name="logout">Log out</string>
+    <string name="no_internet">You are not connected to the internet.</string>
+</resources>

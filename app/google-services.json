@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "576954070958",
+    "firebase_url": "https://wasssup-1bd47.firebaseio.com",
+    "project_id": "wasssup-1bd47",
+    "storage_bucket": "wasssup-1bd47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576954070958:android:ff93fb1f2c9393d4",
+        "android_client_info": {
+          "package_name": "com.lawgimenez.wasssup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576954070958-941s2fm5t08751mrc68ls7633c1j9l21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAStLsxBzZJdUpJoJEye-Che5I1DMWMqQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
